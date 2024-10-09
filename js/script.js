@@ -1,8 +1,8 @@
-const wordList1 = ["The turkey", "Mom", "Dad", "The dog", "My teacher", "The elephant", "The cat"];
-const wordList2 = ["Sat on", "Danced with", "Saw", "Doesn't like", "Kissed"];
-const wordList3 = ["A funny", "A scary", "A goofy", "A slimy", "A barking"];
-const wordList4 = ["Goat", "Monkey", "Cow", "Frog", "Bug", "Worm"];
-const wordList5 = ["On the moon", "On the chair", "In my spaghetti", "In my soup", "On the grass", "In my shoes"];
+const wordList1 = ["The giraffe", "Sister", "Brother", "The rabbit", "My friend", "The lion", "The mouse"];
+const wordList2 = ["Jumped over", "Played with", "Met", "Doesn't like", "Chased"];
+const wordList3 = ["A silly", "A creepy", "A playful", "A colorful", "A sleepy"];
+const wordList4 = ["Panda", "Elephant", "Kangaroo", "Lizard", "Tiger", "Snail"];
+const wordList5 = ["In the park", "Under the bed", "On the roof", "In the garden", "By the river", "In my backpack"];
 
 let word1Index = 0;
 let word2Index = 0;
