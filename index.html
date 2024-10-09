@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create your own sentence">
+    <meta name="author" content="Dhruv Makani">
+    <title>Storymaker</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h1>See ‘N’ Say Storymaker</h1>
+
+        <!-- Buttons for word picking -->
+        <div class="buttons-area">
+            <button id="Word1" class="word" aria-label="Button 1">One</button>
+            <button id="Word2" class="word" aria-label="Button 2">Two</button>
+            <button id="Word3" class="word" aria-label="Button 3">Three</button>
+            <button id="Word4" class="word" aria-label="Button 4">Four</button>
+            <button id="Word5" class="word" aria-label="Button 5">Five</button>
+            <div class="buttons">
+                <button id="generate" class="action" aria-label="Create Sentence Button">Create Sentence</button>
+            </div>    
+        </div>
+
+        <!-- Display area for generated sentences -->
+        <div id="storyBox" class="story" aria-live="polite" role="region">Craft your message and watch it shine!</div>
+
+        <!-- Surprise button and clear button -->
+        <div class="buttons">
+            <button id="random" class="action" aria-label="Surprise Button">Surprise</button>
+            <button id="reset" class="action" aria-label="Clear Button">Clear</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
